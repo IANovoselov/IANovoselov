@@ -2,7 +2,7 @@ from DBcm import UseDatabase
 from prettytable import PrettyTable
 
 class MyWorkList:
-    '''Класс, создающий списко работ'''
+    '''Класс, создающий список работ'''
     def __init__(self):
         #Конфигурация для подключения к базе данных
         self.connection = {'user': 'postgres',
